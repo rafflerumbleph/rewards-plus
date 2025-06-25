@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REWARDS+ | Get Rewarded Weekly. Invite. Earn. Repeat.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'rh-green': '#00C805',
+                        'rh-black': '#000000',
+                        'rh-gray': '#6B7280'
+                    },
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-inter bg-white">
+    <!-- Header -->
+    <header class="bg-black text-white fixed w-full top-0 z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <svg class="w-8 h-8 mr-2" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                    </svg>
+                    <span class="text-xl font-semibold">REWARDS+</span>
+                </div>
+                
+                <!-- Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#features" class="text-white hover:text-gray-300 transition-colors">Features</a>
+                    <a href="#pricing" class="text-white hover:text-gray-300 transition-colors">Pricing</a>
+                    <a href="#campaigns" class="text-white hover:text-gray-300 transition-colors">Campaigns</a>
+                    <a href="#affiliate" class="text-white hover:text-gray-300 transition-colors">Affiliate</a>
+                </div>
+
+                <!-- Auth Buttons -->
+                <div class="flex items-center space-x-4">
+                    <div class="flex items-center text-sm">
+                        <span class="mr-2">🌐</span>
+                        <span>PH</span>
+                        <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                        </svg>
+                    </div>
+                    <a href="login.html" class="border border-white text-white px-6 py-2 rounded-full hover:bg-white hover:text-black transition-all">
+                        Log in
+                    </a>
+                    <a href="register.html" class="bg-rh-green text-black px-6 py-2 rounded-full font-medium hover:bg-green-400 transition-all">
+                        Sign up
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Rewards Season Banner -->
+    <div class="bg-rh-green text-black text-center py-3 mt-16">
+        <p class="text-sm font-medium">
+            It's Rewards Season. Unlock unlimited earning potential with our 3-tier system. 
+            <a href="#affiliate" class="underline font-semibold">Learn more.</a>
+        </p>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="bg-gray-100 py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <div class="flex items-center justify-center mb-6">
+                    <svg class="w-8 h-8 mr-2" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                    </svg>
+                    <span class="text-lg font-medium">REWARDS+ Presents</span>
+                </div>
+                
+                <h1 class="text-6xl md:text-8xl font-light mb-8 text-black leading-tight">
+                    Get Rewarded Weekly
+                </h1>
+                
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+                    Join our revolutionary rewards program. Earn commissions through our 3-tier affiliate system and participate in weekly reward campaigns.
+                </p>
+                
+                <a href="register.html" class="bg-black text-white px-8 py-3 rounded-full font-medium hover:bg-gray-800 transition-all">
+                    Start Earning Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3-Tier Affiliate System -->
+    <section id="affiliate" class="bg-black text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-rh-green text-lg font-medium mb-4">3-Tier Affiliate System</h2>
+                    <h3 class="text-4xl md:text-5xl font-light mb-6 leading-tight">
+                        Maximize your earnings with our proven commission structure
+                    </h3>
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-rh-green rounded-full flex items-center justify-center text-black font-bold mr-4">1</div>
+                            <div>
+                                <p class="text-lg font-medium">Level 1: ₱15 commission</p>
+                                <p class="text-gray-300">Direct referrals</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-green-400 rounded-full flex items-center justify-center text-black font-bold mr-4">2</div>
+                            <div>
+                                <p class="text-lg font-medium">Level 2: ₱5 commission</p>
+                                <p class="text-gray-300">Second-tier referrals</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-green-300 rounded-full flex items-center justify-center text-black font-bold mr-4">3</div>
+                            <div>
+                                <p class="text-lg font-medium">Level 3: ₱3 commission</p>
+                                <p class="text-gray-300">Third-tier referrals</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="register.html" class="bg-rh-green text-black px-8 py-3 rounded-full font-medium hover:bg-green-400 transition-all">
+                        Join Affiliate Program
+                    </a>
+                </div>
+                <div class="relative">
+                    <div class="bg-gray-900 rounded-lg p-6 shadow-2xl">
+                        <div class="h-64 bg-gradient-to-br from-green-400 to-blue-500 rounded opacity-20"></div>
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="text-center">
+                                <div class="text-rh-green text-3xl font-bold mb-2">₱2,450</div>
+                                <p class="text-sm text-gray-400">Total Earnings</p>
+                                <div class="mt-4 text-green-400 text-sm">↗ +12% this week</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Weekly Campaigns -->
+    <section id="campaigns" class="bg-gray-100 py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="relative">
+                    <div class="bg-white rounded-lg p-8 shadow-lg">
+                        <div class="h-64 bg-gradient-to-br from-purple-400 to-pink-500 rounded opacity-20"></div>
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="text-center">
+                                <div class="text-4xl mb-2">🏆</div>
+                                <p class="text-lg font-semibold text-gray-800">Summer Bonus</p>
+                                <p class="text-sm text-gray-600 mt-2">Weekly Campaign</p>
+                                <div class="mt-4 bg-purple-100 px-4 py-2 rounded-full">
+                                    <span class="text-purple-800 text-sm font-medium">12 Entries</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex items-center mb-4">
+                        <svg class="w-6 h-6 mr-2" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                        <span class="text-lg font-medium">REWARDS+ Campaigns</span>
+                    </div>
+                    <h3 class="text-4xl md:text-5xl font-light mb-6 leading-tight text-black">
+                        Participate in weekly reward campaigns
+                    </h3>
+                    <h4 class="text-2xl font-medium mb-4 text-black">Win big every week</h4>
+                    <p class="text-gray-600 text-lg mb-8">
+                        Join exciting weekly campaigns with automatic winner selection and real-time entry tracking. Every subscription gives you campaign entries.
+                    </p>
+                    <div class="flex items-center text-sm text-gray-500 mb-6">
+                        <span class="mr-2">ℹ️</span>
+                        <span>Campaign entries based on subscription tier</span>
+                    </div>
+                    <a href="register.html" class="bg-black text-white px-8 py-3 rounded-full font-medium hover:bg-gray-800 transition-all">
+                        Join Campaigns
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="bg-black text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-rh-green text-lg font-medium mb-4">Simple, Transparent Pricing</h2>
+                <h3 class="text-4xl md:text-5xl font-light mb-6 leading-tight">
+                    Choose your earning potential
+                </h3>
+                <p class="text-gray-300 text-lg">
+                    Start earning commissions and participating in campaigns today
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Weekly Access -->
+                <div class="bg-gray-900 rounded-lg p-8 border border-gray-800">
+                    <h4 class="text-xl font-semibold mb-4">Weekly Access</h4>
+                    <div class="mb-6">
+                        <span class="text-4xl font-bold">₱150</span>
+                        <span class="text-gray-400">/week</span>
+                    </div>
+                    <ul class="space-y-4 text-gray-300 mb-8">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-rh-green mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            7 days full access
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-rh-green mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            Campaign participation
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-rh-green mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            Basic affiliate features
+                        </li>
+                    </ul>
+                    <a href="register.html" class="w-full bg-rh-green text-black px-6 py-3 rounded-full font-medium hover:bg-green-400 transition-all text-center block">
+                        Get Started
+                    </a>
+                </div>
+                
+                <!-- Monthly Premium -->
+                <div class="bg-gray-900 rounded-lg p-8 border-2 border-rh-green relative">
+                    <div class="absolute -top-3 left-1/2 transform -translate-x-1/2">
+                        <span class="bg-rh-green text-black px-4 py-1 rounded-full text-sm font-medium">Most Popular</span>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-4">Monthly Premium</h4>
+                    <div class="mb-6">
+                        <span class="text-4xl font-bold">₱500</span>
+                        <span class="text-gray-400">/month</span>
+                    </div>
+                    <ul class="space-y-4 text-gray-300 mb-8">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-rh-green mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            30 days premium access
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-rh-green mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            Priority campaign entry
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-rh-green mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            Advanced affiliate dashboard
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-rh-green mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            Premium member benefits
+                        </li>
+                    </ul>
+                    <a href="register.html" class="w-full bg-rh-green text-black px-6 py-3 rounded-full font-medium hover:bg-green-400 transition-all text-center block">
+                        Get Premium
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="bg-gray-100 py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-light mb-6 text-black">Why Choose REWARDS+</h2>
+                <p class="text-gray-600 text-lg">Unlock the potential of our multi-tier reward system</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Real-time Tracking -->
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <div class="w-12 h-12 bg-rh-green rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-black" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-black">Real-time Tracking</h3>
+                    <p class="text-gray-600">
+                        Monitor your earnings and campaign entries in real-time through our intuitive dashboard.
+                    </p>
+                </div>
+                
+                <!-- Automatic Payouts -->
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <div class="w-12 h-12 bg-rh-green rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-black" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-black">Automatic Payouts</h3>
+                    <p class="text-gray-600">
+                        Receive your commissions automatically with our secure and reliable payout system.
+                    </p>
+                </div>
+                
+                <!-- 24/7 Support -->
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <div class="w-12 h-12 bg-rh-green rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-black" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-2 0c0 .993-.241 1.929-.668 2.754l-1.524-1.525a3.997 3.997 0 00.078-2.183l1.562-1.562C17.759 8.071 18 9.007 18 10z" clip-rule="evenodd"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-black">24/7 Support</h3>
+                    <p class="text-gray-600">
+                        Get help whenever you need it with our dedicated customer support team.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <svg class="w-6 h-6 mr-2" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                        <span class="text-lg font-semibold">REWARDS+</span>
+                    </div>
+                    <p class="text-gray-400 text-sm">
+                        Get Rewarded Weekly. Invite. Earn. Repeat.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Features</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="#affiliate" class="hover:text-white transition-colors">3-Tier Affiliate</a></li>
+                        <li><a href="#campaigns" class="hover:text-white transition-colors">Weekly Campaigns</a></li>
+                        <li><a href="#features" class="hover:text-white transition-colors">Real-time Tracking</a></li>
+                        <li><a href="dashboard.html" class="hover:text-white transition-colors">Dashboard</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Resources</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Help Center</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Terms of Service</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li>support@rewardsplus.com</li>
+                        <li>1-800-REWARDS</li>
+                        <li>Manila, Philippines</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-sm text-gray-400">
+                <p>&copy; 2024 REWARDS+. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
